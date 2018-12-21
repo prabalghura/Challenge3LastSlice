@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DebugEngines>
+    </DebugEngines>
+    <BackgroundTaskDebugEngines>
+    </BackgroundTaskDebugEngines>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>169.254.162.137</RemoteDebugMachine>
+  </PropertyGroup>
+</Project>
